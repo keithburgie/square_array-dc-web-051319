@@ -1,5 +1,6 @@
 numbers = [2, 4, 6]
 
+=begin
 def square_array(numbers)
   new_numbers = []
   numbers.each do |element|
@@ -7,6 +8,11 @@ def square_array(numbers)
   end
   new_numbers
 end
+=end
 
+def square_array(numbers)
+ new_numbers = []
+ new_numbers.collect |numbers ** 2|
+end
 
 square_array(numbers)
