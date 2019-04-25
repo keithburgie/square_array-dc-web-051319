@@ -10,7 +10,7 @@ numbers = [2, 4, 6]
 #end
 
 def square_array(numbers)
- numbers.collect |square_root| numbers ** 2
+ numbers.collect |x| numbers ** 2
  puts numbers
 end
 
