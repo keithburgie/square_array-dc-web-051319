@@ -12,6 +12,7 @@ numbers = [2, 4, 6]
 def square_array(numbers)
  new_numbers = []
  new_numbers.collect |numbers ** 2|
+ new_numbers
 end
 
 square_array(numbers)
