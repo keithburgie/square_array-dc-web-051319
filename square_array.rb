@@ -13,7 +13,7 @@
 
 def square_array(numbers)
   numbers = [2, 4, 6]
-  numbers.collect {|number| number + 1 }
+  numbers.collect {|number| number ** 2 }
 end
 
 square_array(numbers)
