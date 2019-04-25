@@ -10,7 +10,7 @@ numbers = [2, 4, 6]
 #end
 
 def square_array(numbers)
- numbers.collect |x| x+1
+ numbers.collect |x| x + 1
  puts numbers
 end
 
