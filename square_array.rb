@@ -9,10 +9,8 @@
 #  new_numbers
 #end
 
->> ['a', 'b', 'c'].collect{|letter| letter.capitalize}
-
+numbers = [2, 4, 6]
 def square_array(numbers)
-  numbers = [2, 4, 6]
   numbers.collect {|number| number ** 2 }
 end
 
