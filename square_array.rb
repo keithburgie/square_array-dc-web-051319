@@ -10,9 +10,8 @@ numbers = [2, 4, 6]
 #end
 
 def square_array(numbers)
- new_numbers = []
- new_numbers.collect |numbers ** 2|
- new_numbers
+ numbers.collect |numbers ** 2|
+ puts numbers
 end
 
 square_array(numbers)
