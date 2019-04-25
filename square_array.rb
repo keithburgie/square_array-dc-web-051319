@@ -9,6 +9,8 @@ numbers = [2, 4, 6]
 #  new_numbers
 #end
 
+>> ['a', 'b', 'c'].collect{|letter| letter.capitalize}
+
 def square_array(numbers)
   numbers.collect { |x| x + 1 }
  puts numbers
